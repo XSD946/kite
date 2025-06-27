@@ -23,10 +23,10 @@ max_operations = 100
 max_credits = 25
 
 [database.postgres]
-host = "127.0.0.1"
+host = "dpg-d1etvter433s73fl20vg-a"
 port = 5432
-user = "postgres"
-db_name = "kite"
+user = "kitedb_9loq_user"
+db_name = "kitedb_9loq"
 
 [database.s3]
 endpoint = "localhost:9000"
