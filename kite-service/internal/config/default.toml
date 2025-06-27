@@ -27,6 +27,7 @@ host = "dpg-d1etvter433s73fl20vg-a"
 port = 5432
 user = "kitedb_9loq_user"
 db_name = "kitedb_9loq"
+password = "${PGPASSWORD}"
 
 
 [database.s3]
